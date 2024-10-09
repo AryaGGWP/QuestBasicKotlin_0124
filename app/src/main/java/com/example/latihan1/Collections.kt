@@ -38,5 +38,29 @@ println(shapesLocked)
 // Set Read-Only menggunakan setOf
 // Set Mutable menggunakan mutableSetOf
 
-fun Contoh
+fun ContohSet() {
+    println()
+    println("=== Set ===")
+
+// Set Read-Only
+        val readOnlyAbjad = setOf("A", "B", "C")
+        println(readOnlyAbjad)
+
+// Set Mutable
+        val shape: MutableSet<String> = mutableSetOf("Circle", "Square", "Triangle")
+        println(shape)
+
+// Menambahkan data ke dalam Set Mutable
+        shape.add("Rectangle")
+        println(shape)
+
+// Menghapus data dari Set Mutable
+        shape.remove("Circle")
+
+// Set Read-Only
+val shapesLocked: Set<String> = shape
+println(shapesLocked)
+}
+
+
 
