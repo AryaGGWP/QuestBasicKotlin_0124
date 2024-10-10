@@ -31,4 +31,6 @@ return notNull.length
     println(strLength(neverNull))
 }
 
-
+fun main() {
+    nullSafety()
+}
