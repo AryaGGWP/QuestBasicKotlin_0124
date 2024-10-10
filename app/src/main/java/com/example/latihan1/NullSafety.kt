@@ -34,3 +34,4 @@ return notNull.length
 fun main() {
     nullSafety()
 }
+
